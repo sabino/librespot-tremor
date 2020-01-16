@@ -41,6 +41,7 @@
 #include <sys/types.h>
 #endif
 
+/*
 #if BYTE_ORDER==LITTLE_ENDIAN
 union magic {
   struct {
@@ -50,6 +51,7 @@ union magic {
   ogg_int64_t whole;
 };
 #endif 
+*/
 
 #if BYTE_ORDER==BIG_ENDIAN
 union magic {
