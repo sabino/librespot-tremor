@@ -1,0 +1,15 @@
+[package]
+name = "librespot-tremor"
+version = "0.1.0"
+authors = ["Librespot Org"]
+build = "build.rs"
+description = "Rust bindings to tremor"
+license = "MIT"
+
+[dependencies]
+libc = "0.2.65"
+ogg-sys = "0.0.9"
+
+[build-dependencies]
+cc = "1.0.47"
+pkg-config = "0.3"
